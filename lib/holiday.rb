@@ -38,7 +38,6 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   holiday_supplies[:winter] = {:valentines_day => ["Flags", "Italian Food", "Parade Floats"]}
   
   holiday_supplies[:fall] = {:columbus_day => ["Flags", "Italian Food", "Parade Floats"]}
-  holiday_supplies
 end
 
 def all_winter_holiday_supplies(holiday_hash)
